@@ -66,13 +66,13 @@ footer p {
 }
 
 img.tasha-image {
-    border: 5px solid purple;
+    border: 10px solid purple;
     max-width: 100%;
 }
 
 .project img {
-    border: 5px solid purple;
-    max-width: 25%;
+    border: 10px solid purple;
+    max-width: 30%;
     height: auto;
     transition: border-color 0.3s;
 }
