@@ -21,10 +21,13 @@ header h1 {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #333;
     padding: 10px;
+    z-index: 1000; /* Ensure the navigation bar appears above other elements */
 }
 
 nav a {
@@ -32,6 +35,11 @@ nav a {
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
+}
+
+/* Add a margin to the content to prevent it from being hidden behind the fixed navbar */
+body {
+    margin-top: 50px; /* Adjust the value based on the height of your navigation bar */
 }
 
 section {
