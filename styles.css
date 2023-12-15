@@ -65,8 +65,13 @@ footer p {
     width: 50%;
 }
 
-/* Add new styles for the image */
 img.tasha-image {
     border: 5px solid purple;
     max-width: 100%;
 }
+
+img.project {
+    max-width: 100%;
+    max-height: 300px;
+}
+
