@@ -83,6 +83,39 @@
         &copy; 2023 Tasha Gerlitz. All rights reserved.
     </footer>
 
+    <div class="lightbox" id="lightbox">
+        <img src="#" alt="Lightbox Image" id="lightbox-img">
+        <span id="close-lightbox" class="close-lightbox">&times;</span>
+    </div>
+    
+    <script>
+        // JavaScript to handle lightbox functionality
+        document.addEventListener("DOMContentLoaded", function () {
+            const lightbox = document.getElementById("lightbox");
+            const lightboxImg = document.getElementById("lightbox-img");
+            const closeLightbox = document.getElementById("close-lightbox");
+    
+            const projectImages = document.querySelectorAll(".project img");
+    
+            projectImages.forEach(function (img) {
+                img.addEventListener("click", function () {
+                    lightboxImg.src = this.src;
+                    lightbox.classList.add("active");
+                });
+            });
+    
+            closeLightbox.addEventListener("click", function () {
+                lightbox.classList.remove("active");
+            });
+    
+            lightbox.addEventListener("click", function (event) {
+                if (event.target === lightbox) {
+                    lightbox.classList.remove("active");
+                }
+            });
+        });
+    </script>
+    
 </body>
 
 </html>
