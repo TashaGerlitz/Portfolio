@@ -114,6 +114,16 @@ img.tasha-image {
     color: purple;
 }
 
+#skills {
+    text-align: center;
+  }
+
+  #skills img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+
 .lightbox {
     display: none;
     position: fixed;
