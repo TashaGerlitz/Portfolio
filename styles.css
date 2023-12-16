@@ -89,6 +89,26 @@ img.tasha-image {
     border-color: white;
 }
 
+.download-resume {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-resume a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.download-resume a:hover {
+    background-color: white;
+    color: purple;
+}
+
 .lightbox {
     display: none;
     position: fixed;
