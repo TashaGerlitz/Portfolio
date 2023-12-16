@@ -52,7 +52,8 @@ section {
 }
 
 .project h2 {
-    color: purple;
+    color: rgb(232, 128, 232);
+    text-align: center;
 }
 
 footer {
@@ -92,6 +93,10 @@ img.tasha-image {
 .download-resume {
     text-align: center;
     margin-top: 20px;
+}
+
+#contact a:visited {
+    color: purple;
 }
 
 .download-resume a {
