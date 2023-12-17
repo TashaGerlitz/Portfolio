@@ -140,6 +140,10 @@ img.tasha-image {
     margin: 0 10px;
   }
 
+  .center {
+    text-align: center;
+}
+
 .lightbox {
     display: none;
     position: fixed;
