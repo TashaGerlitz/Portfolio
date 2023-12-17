@@ -74,10 +74,24 @@ footer p {
     width: 50%;
 }
 
+.center {
+    text-align: center;
+}
+
+.centered-text {
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the element horizontally */
+}
+
 img.tasha-image {
     border: 10px solid purple;
     max-width: 100%;
+    border-radius: 50%; /* Create a circular shape */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
 }
+
 
 .project img {
     border: 10px solid purple;
