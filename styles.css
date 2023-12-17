@@ -79,9 +79,11 @@ footer p {
 }
 
 .centered-text {
-    max-width: 800px; /* Set a maximum width for better readability */
-    margin: 0 auto; /* Center the element horizontally */
+    max-width: 800px;
+    margin: 40px auto 0; 
+    font-size: 18px;
 }
+
 
 img.tasha-image {
     border: 10px solid purple;
